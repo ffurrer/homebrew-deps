@@ -2,9 +2,9 @@ require 'formula'
 
 class MongodbDev < Formula
   homepage 'http://www.mongodb.org/'
-  url 'https://github.com/mongodb/mongo/archive/r2.5.4.tar.gz'
-  sha1 '0d8b8dad3b5909af2b9b7ba7ed22d5cb0a7cfd98'
-  version '2.5.4'
+  url 'https://github.com/mongodb/mongo/archive/r2.7.8.tar.gz'
+  sha1 'e28b1d7fca78f02513a56c08b0c1a91db97b5336'
+  version '2.7.8'
 
   depends_on 'scons'
   depends_on 'boost'
